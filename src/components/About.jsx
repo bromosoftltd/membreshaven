@@ -55,6 +55,8 @@ const About = () => {
           <Link
             to="contact"
             offset={-150}
+            smooth={true}
+            duration={1500}
             className="bg-[#0A132E] dark:bg-white dark:text-[#0a132e] dark:hover:text-white dark:hover:bg-[#D9A74A] hover:bg-white hover:text-[#0A132E] transition duration-300 ease-linear self-start ml-10 mt-1 p-3 flex items-center rounded-full gap-2 text-center cursor-pointer text-white font-semibold text-lg"
           >
             Contact Us

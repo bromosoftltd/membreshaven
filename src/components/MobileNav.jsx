@@ -46,13 +46,14 @@ const MobileNav = ({ open, handleOpen }) => {
               hashSpy={true}
               duration={1000}
               offset={-150}
+              smooth={true}
               onClick={handleOpen}
             >
               {item.label}
             </Link>
           </li>
         ))}
-        <h2 className="mt-10 dark:text-white underline-offset-4 underline text-2xl font-semibold text-center">Get In Touch</h2>
+        <h2 className="mt-10 dark:text-white text-gray-600 underline-offset-4 underline text-2xl font-semibold text-center">Get In Touch</h2>
         <div className="flex *:bg-white  *:p-3 *:rounded-full justify-evenly mt-3 *:dark:text-black *:text-gray-700 hover:*:text-[#D9A74A] transition-colors duration-500 ease-out *:text-xl items-center">
       <a
         target="__blank"
