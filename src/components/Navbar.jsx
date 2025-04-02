@@ -55,7 +55,7 @@ const Navbar = () => {
         {/* Dark Mode Toggle */}
         <button
           onClick={toggleDarkMode}
-          className="text-3xl p-2 bg-transparent text-[#666] dark:text-[#F6F3ED] rounded-full"
+          className="text-3xl p-2 cursor-pointer bg-transparent text-[#666] dark:text-[#F6F3ED] rounded-full"
           aria-label="Toggle dark mode"
           aria-live="polite"
         >
