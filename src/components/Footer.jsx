@@ -11,7 +11,7 @@ import {
   const Footer = () => {
     const year = new Date().getFullYear();
     return (
-      <footer className="w-full flex lxl:gap-6 flex-col lg:pb-10 items-center dark:bg-gray-700 bg-[#F6F3ED] justify-center xl:min-h-[65vh] min-h-[60vh] bg-center-all bg-scroll bg-no-repeat bg-contain  bg-[url(/images/footer-bg.png)]">
+      <footer id="footer" className="w-full flex lxl:gap-6 flex-col lg:pb-10 items-center dark:bg-gray-700 bg-[#F6F3ED] justify-center xl:min-h-[65vh] min-h-[60vh] bg-center-all bg-scroll bg-no-repeat bg-contain  bg-[url(/images/footer-bg.png)]">
         <div className="w-full flex flex-wrap items-center xl:gap-3 p-3 justify-between">
           <div className="xl:w-1/4 md:w-1/3 w-full">
             <h2 className="font-semibold mb-6 text-gray-700 dark:text-[#f6f3ed] text-xl md:text-start text-center">

@@ -19,7 +19,7 @@ const About = () => {
           fill
             src="https://firebasestorage.googleapis.com/v0/b/beiystar.appspot.com/o/images%2Fabout-bg.webp?alt=media&token=9e6cdd39-f8ea-4811-8169-3470c3277436"
             alt=""
-            className="w-full lg:h-[90vh] object-cover object-[top_center] h-[45vh] lg:rounded-2xl"
+            className="w-full lg:h-[90vh] object-cover object-[left_center] h-[45vh] lg:rounded-2xl"
           />
                </div>
         <div className="lg:mt-12 mt-16 lg:w-1/2 flex gap-4 flex-col items-center sm:p-6 p-2">

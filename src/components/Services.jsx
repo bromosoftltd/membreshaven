@@ -104,20 +104,20 @@ const Services = () => {
           <div
             id={service.id}
             key={index}
-            className="w-11/12 md:min-h-[450px]   md:mx-3  min-h-[650px]  dark:bg-gray-700 bg-[#F5F2EC] mt-16 rounded-2xl overflow-hidden shadow-md flex md:flex-row flex-col"
+            className="w-11/12 md:min-h-[450px]   md:mx-3    dark:bg-gray-700 bg-[#F5F2EC] mt-16 rounded-2xl overflow-hidden shadow-md flex md:flex-row flex-col"
           >
             {/* Image Section */}
             <Image
               width={400}
               height={400}
-              className="md:w-1/2 w-full object-cover h-[450px]   max-md:h-[300px] object-[center_center] md:rounded-2xl"
+              className="md:w-1/2 w-full object-cover h-[450px]   max-md:h-[300px] object-[center_center] md:rounded-l-2xl"
               src={service.image}
               loading="lazy"
               alt={service.title}
             />
 
             {/* Content Section */}
-            <div className="md:w-1/2 w-full p-2 pl-0 max-md:h-1/4 bg-[#F5F2EC] dark:bg-gray-700 flex flex-col justify-center">
+            <div className="md:w-1/2 w-full md:p-2 p-1 pl-0 max-md:h-1/4 bg-[#F5F2EC] dark:bg-gray-700 flex flex-col justify-center">
               <h2 className="text-xl lg:text-2xl font-bold dark:text-[#F6F3ED] text-gray-800 mb-2 pl-4 lg:pl-6">
                 {service.title}
               </h2>

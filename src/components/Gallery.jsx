@@ -71,7 +71,7 @@ const Gallery = () => {
       id="gallery"
       className="w-full min-h-screen p-3 dark:bg-gray-700 bg-[#F6F3ED]"
     >
-      <h1 className="text-center font-bold uppercase w-max mx-auto p-1 rounded-full text-sm dark:text-[#f6f3ed] text-[#0A132E]">
+      <h1 className="text-center bg-[#0A132E] text-[#f2f5f5] dark:bg-[#F5F2EC] dark:text-[#0a0a0a] font-bold uppercase w-max mx-auto p-1 rounded-full text-sm p-2 text-[#0A132E]">
         The Membres Haven Experience
       </h1>
       <h2 className="text-center text-[#D9A74A] uppercase text-4xl m-2 font-semibold">

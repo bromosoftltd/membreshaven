@@ -138,7 +138,7 @@ export function EmblaCarousel() {
           <button
             key={index}
             onClick={() => emblaApi?.scrollTo(index)}
-            className={`  rounded-full transition-all duration-300 ease-linear ${
+            className={`  rounded-full cursor-pointer transition-all duration-300 ease-linear ${
               selectedIndex === index
                 ? "bg-[#D9A74A]  xl:h-[28px] h-[14px] xl:w-[14px] w-[28px]"
                 : "bg-[#666] dark:bg-white h-[14px]  w-[14px]"

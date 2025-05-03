@@ -38,7 +38,7 @@ const Navbar = () => {
               smooth={true}
               hashSpy={true}
               to={item.to}
-              duration={1000}
+              duration={1500}
               offset={-150}
               className="flex items-center transition-colors ease-linear duration-300 cursor-pointer justify-center hover:text-[#D9A74A]"
               activeClass="text-[#D9A74A] font-bold"

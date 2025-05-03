@@ -65,7 +65,7 @@ const Contact = () => {
         >
           <div className="flex flex-col w-[95%]">
             <textarea
-              className="w-full mb-3 m-auto bg-white placeholder:text-gray-600 rounded-2xl outline-none resize-none p-3 h-32"
+              className="w-full text-black mb-3 m-auto bg-white placeholder:text-gray-600 rounded-2xl outline-none resize-none p-3 h-32"
               placeholder="Write a message"
               {...register("message", {
                 required: "Please write something for us",
@@ -85,7 +85,7 @@ const Contact = () => {
           <div className="m-3 ml-0 flex sm:flex-row flex-col sm:gap-0 gap-7 sm:items-start items-center  w-full  justify-evenly">
             <div className="flex flex-col w-[95%] sm:w-1/2">
               <input
-                className="p-4 bg-white placeholder:text-gray-600 text-sm rounded-xl border-none outline-none"
+                className="p-4 bg-white placeholder:text-gray-600 text-black text-sm rounded-xl border-none outline-none"
                 type="text"
                 placeholder="Full name *"
                 {...register("user_name", {
@@ -104,7 +104,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col w-[95%] sm:w-2/5">
               <input
-                className="p-4 text-sm bg-white placeholder:text-gray-600 rounded-xl border-none outline-none"
+                className="p-4 text-sm bg-white text-black placeholder:text-gray-600 rounded-xl border-none outline-none"
                 type="email"
                 placeholder="Email address *"
                 {...register("user_email", {
@@ -126,12 +126,12 @@ const Contact = () => {
           <div className="m-3 ml-0 flex sm:flex-row flex-col sm:gap-0 gap-7 sm:items-start items-center w-full justify-evenly">
             <div className="flex flex-col w-[95%] sm:w-2/5">
               <select
-                className="p-4 bg-white placeholder:text-gray-600 *:text-gray-600 text-sm rounded-xl border-none outline-none"
+                className="p-4 bg-white text-black text-sm rounded-xl border-none outline-none"
                 {...register("service", {
                   required: "Please select a service",
                 })}
               >
-                <option value="">Available services</option>
+                <option className="text-black" value="">Available services</option>
                 <option value="Sauna">Sauna</option>
                 <option value="Steam Bath">Steam Bath</option>
                 <option value="Waxing">Waxing</option>
@@ -154,7 +154,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col w-[95%] sm:w-2/5">
               <input
-                className="p-4 text-sm bg-white placeholder:text-gray-600 rounded-xl border-none outline-none"
+                className="p-4 text-sm text-black bg-white placeholder:text-gray-600 rounded-xl border-none outline-none"
                 type="datetime-local"
                 {...register("date", {
                   required: "Please select a date",
