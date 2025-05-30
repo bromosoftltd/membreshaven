@@ -24,7 +24,7 @@ const MobileNav = ({ open, handleOpen }) => {
       <ul
         className={`${
           open ? "translate-x-0" : "translate-x-[84%]"
-        } absolute right-0 w-5/6 h-full flex flex-col bg-[#F6F3ED] dark:bg-[#0A132E] transform duration-700`}
+        } absolute right-0 w-5/6 h-full flex flex-col bg-[#F6F3ED] dark:bg-[#18181B] transform duration-700`}
       >
         <img
           src="/images/logo.png"
