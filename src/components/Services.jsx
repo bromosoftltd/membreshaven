@@ -18,7 +18,7 @@ const Services = () => {
       image: "/images/manicure-pedicure.jpg",
     },
     {
-      title: "Dyieng & Shampoo",
+      title: "Dyeing & Shampoo",
       id: "manicure-pedicure",
       description:
         "Enhance your hair's natural beauty with our professional dyeing and shampoo services. Whether you're looking for a bold new color or simply maintaining your signature shade, our experts use high-quality products to achieve stunning, lasting results. Finish with a refreshing shampoo session that cleanses and nourishes your hair, leaving it silky smooth and full of life. Experience a personalized touch that caters to your style preferences and hair needs.",
@@ -93,10 +93,10 @@ const Services = () => {
       id="services"
       className="w-full xl:min-h-[85vh] min-h-[50vh] relative md:p-4"
     >
-      <h1 className="text-center absolute z-20 top-10 font-semibold text-gray-600 left-10  py-1 px-2 rounded-full uppercase text-[11px] bg-[#F5F2EC] w-max">
+      <h1 className="text-center absolute z-20 top-10 font-semibold text-[#18181B] left-10  py-1 px-2 rounded-full uppercase text-[11px] bg-[#F5F2EC] w-max">
         our services
       </h1>
-      <h3 className="mt-16 md:text-5xl sm:text-[32px] text-[26px] font-bold dark:text-white text-gray-700">
+      <h3 className="mt-16 md:text-5xl sm:text-[32px] text-[26px] font-bold dark:text-white text-[#18181B]">
         The luxury experience
       </h3>
       <div className="w-full flex flex-col items-center pb-3">
@@ -104,7 +104,7 @@ const Services = () => {
           <div
             id={service.id}
             key={index}
-            className="w-11/12 md:min-h-[450px]   md:mx-3    dark:bg-gray-700 bg-[#F5F2EC] mt-16 rounded-2xl overflow-hidden shadow-md flex md:flex-row flex-col"
+            className="w-11/12 md:min-h-[450px]   md:mx-3    dark:bg-[#28282A] bg-[#F5F2EC] mt-16 rounded-2xl overflow-hidden shadow-md flex md:flex-row flex-col"
           >
             {/* Image Section */}
             <Image
@@ -117,12 +117,12 @@ const Services = () => {
             />
 
             {/* Content Section */}
-            <div className="md:w-1/2 w-full md:p-2 p-1 pl-0 max-md:h-1/4 bg-[#F5F2EC] dark:bg-gray-700 flex flex-col justify-center">
+            <div className="md:w-1/2 w-full md:p-2 p-1 pl-0 max-md:h-1/4 bg-[#F5F2EC] dark:bg-[#28282A] flex flex-col justify-center">
               <h2 className="text-xl lg:text-2xl font-bold dark:text-[#F6F3ED] text-gray-800 mb-2 pl-4 lg:pl-6">
                 {service.title}
               </h2>
               <hr className="border-gray-300 m-2 ml-0 w-full" />
-              <p className="text-gray-600 text-justify dark:text-[#F6F3ED] text-sm lg:text-base pl-4 lg:pl-6">
+              <p className="text-[#18181B] text-justify dark:text-[#F6F3ED] text-sm lg:text-base pl-4 lg:pl-6">
                 {service.description}
               </p>
             </div>

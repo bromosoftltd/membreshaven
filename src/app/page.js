@@ -12,7 +12,7 @@ import { Link } from "react-scroll";
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen dark:bg-[#0A132E] relative bg-white">
+    <div className="w-full min-h-screen dark:bg-[#18181B] relative bg-[#FAFBFE]">
       <Header />
       <Navbar />
       <HomePage />
@@ -25,7 +25,7 @@ export default function Home() {
         to="home"
         offset={-150}
         smooth={true}
-        className="fixed cursor-pointer z-40 bottom-3 right-4 text-white rounded-full hover:bg-[#D9A74A] transition-colors duration-500 hover:dark:text-[#0a132e] dark:hover:bg-[#f6f3ed] bg-[#0a132e] dark:bg-[#D9A74A] p-3"
+        className="fixed cursor-pointer z-40 bottom-3 right-4 text-white rounded-full hover:bg-[#D9A74A] transition-colors duration-500 hover:dark:text-[#18181B] dark:hover:bg-[#f6f3ed] bg-[#18181B] dark:bg-[#D9A74A] p-3"
       >
         <FaArrowUp />
       </Link>

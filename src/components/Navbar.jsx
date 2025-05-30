@@ -25,12 +25,12 @@ const Navbar = () => {
   const logoPath = "/images/logo.png";
 
   return (
-    <nav className="w-full sticky top-0 z-40 flex  h-[14vh] justify-between items-center lg:p-2 bg-[#F6F3ED] dark:bg-[#000] lg:dark:bg-[#0A132E] lg:bg-[#fff]">
+    <nav className="w-full sticky top-0 z-40 flex  lg:h-[14vh] justify-between items-center lg:p-2 bg-[#F6F3ED] dark:bg-[#000] lg:dark:bg-[#18181B] lg:bg-[#fff]">
       {/* Logo */}
       <img src={logoPath} alt="Membres Haven Logo" className="md:w-22 w-20" />
 
       {/* Desktop Menu */}
-      <ul className="hidden lg:flex gap-6 text-sm font-semibold uppercase text-[#0A132E] dark:text-white">
+      <ul className="hidden lg:flex gap-6 text-sm font-semibold uppercase text-[#18181B] dark:text-white">
         {menuItems.map((item) => (
           <li key={item.to}>
             <Link

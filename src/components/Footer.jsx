@@ -11,10 +11,10 @@ import {
   const Footer = () => {
     const year = new Date().getFullYear();
     return (
-      <footer id="footer" className="w-full flex lxl:gap-6 flex-col lg:pb-10 items-center dark:bg-gray-700 bg-[#F6F3ED] justify-center xl:min-h-[65vh] min-h-[60vh] bg-center-all bg-scroll bg-no-repeat bg-contain  bg-[url(/images/footer-bg.png)]">
+      <footer id="footer" className="w-full flex lxl:gap-6 flex-col lg:pb-10 items-center dark:bg-[#28282A] bg-[#F6F3ED] justify-center xl:min-h-[65vh] min-h-[60vh] bg-center-all bg-scroll bg-no-repeat bg-contain  bg-[url(/images/footer-bg.png)]">
         <div className="w-full flex flex-wrap items-center xl:gap-3 p-3 justify-between">
           <div className="xl:w-1/4 md:w-1/3 w-full">
-            <h2 className="font-semibold mb-6 text-gray-700 dark:text-[#f6f3ed] text-xl md:text-start text-center">
+            <h2 className="font-semibold mb-6 text-[#18181B] dark:text-[#f6f3ed] text-xl md:text-start text-center">
               Useful Links
             </h2>
             <div className="flex items-center md:gap-8 md:justify-start justify-between ">
@@ -136,7 +136,7 @@ import {
             <div></div>
           </div>
           <div className="xl:w-1/4 w-full  flex flex-col xl:justify-start justify-center xl:items-end">
-            <h2 className="font-semibold mb-6 dark:text-[#f6f3ed] text-gray-700 text-center  text-xl">
+            <h2 className="font-semibold mb-6 dark:text-[#f6f3ed] text-[#18181B] text-center  text-xl">
               Working Hours
             </h2>
             <div className="flex flex-col gap-2">
@@ -161,8 +161,8 @@ import {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className="sm:w-[90%] flex  items-center justify-center sm:mb-7 shadow-sm shadow-gray-50 sm:rounded-full sm:border-none dark:shadow-none border-t-[1px] sm:p-7 p-4 sm:bg-white sm:dark:bg-[#0A132E]">
-          <h4 className="text-sm text-gray-700 dark:text-[#f6f3ed] font-normal md:text-start text-center">
+        <div className="sm:w-[90%] flex  items-center justify-center sm:mb-7 shadow-sm shadow-gray-50 sm:rounded-full sm:border-none dark:shadow-none border-t-[1px] sm:p-7 p-4 sm:bg-white sm:dark:bg-[#18181B]">
+          <h4 className="text-sm text-[#18181B] dark:text-[#f6f3ed] font-normal md:text-start text-center">
             &copy; Copyright {year} Membres Haven All Rights Reserved
           </h4>
         </div>

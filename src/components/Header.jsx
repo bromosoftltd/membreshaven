@@ -10,8 +10,8 @@ import {
 
 const Header = () => {
   return (
-    <header className="w-full relative p-3 lg:flex hidden gap-32 items-center dark:bg-[#666] bg-[#F6F3ED]">
-    <h6 className="flex items-center gap-2 text-sm dark:text-white text-[#0A132E]">
+    <header className="w-full relative p-3 lg:flex hidden gap-32 items-center dark:bg-[#28282A] bg-[#F6F3ED]">
+    <h6 className="flex items-center gap-2 text-sm dark:text-white text-[#18181B]">
       <FaLocationDot className="text-lg text-[#ECB394]" />
       <Link
         target="__blank"
@@ -22,7 +22,7 @@ const Header = () => {
       123 Kamiti Rd, Nairobi
       </Link>
     </h6>
-    <h6 className="flex items-center gap-2 text-sm dark:text-white text-[#0A132E]">
+    <h6 className="flex items-center gap-2 text-sm dark:text-white text-[#18181B]">
       <MdMail className="text-lg text-[#ECB394]" />{" "}
       <Link
         target="__blank"

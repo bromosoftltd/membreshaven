@@ -52,7 +52,7 @@ const Contact = () => {
     >
       <Toaster position="bottom-center" reverseOrder={false} />
       <div className="xl:w-1/2 lg:w-2/5 xl:min-h-[80vh] lg:flex hidden min-h-[60vh] rounded-3xl bg-[url(https://firebasestorage.googleapis.com/v0/b/beiystar.appspot.com/o/images%2Fcontact-bg.webp?alt=media&token=3e2d8e34-a740-4cfd-b03e-3aceb36b1902)] bg-[top_center] bg-cover"></div>
-      <div className="xl:w-1/2 lg:w-3/5 w-full xl:min-h-[80vh] min-h-[60vh] lg:rounded-3xl flex flex-col p-1 xl:pl-12 lg:pl-10 md:pl-6 max-xl:pb-4 dark:bg-gray-700 bg-[#D9A74A]">
+      <div className="xl:w-1/2 lg:w-3/5 w-full xl:min-h-[80vh] min-h-[60vh] lg:rounded-3xl flex flex-col p-1 xl:pl-12 lg:pl-10 md:pl-6 max-xl:pb-4 dark:bg-[#28282A] bg-[#D9A74A]">
         <h1 className="lg:p-[6px] p-2 font-[500] mt-10 text-gray-700 uppercase sm:text-start text-center bg-white w-max lg:text-[10px] text-lg rounded-full">
           Appointment
         </h1>
@@ -179,14 +179,14 @@ const Contact = () => {
           {loading ? (
             <button
               type="button"
-              className="bg-[#0A132E] w-max rounded-full dark:bg-[#D9A74A] dark:hover:text-[#0a132e] dark:hover:bg-white text-white mt-4 flex gap-1 items-center justify-evenly cursor-not-allowed p-2"
+              className="bg-[#18181B] w-max rounded-full dark:bg-[#D9A74A] dark:hover:text-[#18181B] dark:hover:bg-white text-white mt-4 flex gap-1 items-center justify-evenly cursor-not-allowed p-2"
               disabled
             >
               <svg className="animate-spin h-6 w-6 rounded-full border-4 border-r-[#D9A74A] border-t-[#D9A74A]"></svg>
               Sending...
             </button>
           ) : (
-            <button className="bg-[#0A132E] dark:bg-[#D9A74A] dark:hover:text-[#0a132e] dark:hover:bg-white hover:bg-white hover:text-[#0A132E] transition duration-300 ease-linear self-start ml-10 mt-1 p-3 flex items-center rounded-full gap-2 text-center cursor-pointer text-white font-semibold text-lg">
+            <button className="bg-[#18181B] dark:bg-[#D9A74A] dark:hover:text-[#18181B] dark:hover:bg-white hover:bg-white hover:text-[#0A132E] transition duration-300 ease-linear self-start ml-10 mt-1 p-3 flex items-center rounded-full gap-2 text-center cursor-pointer text-white font-semibold text-lg">
               Send Message
               <GoArrowUpRight />
             </button>
