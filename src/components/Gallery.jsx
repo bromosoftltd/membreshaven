@@ -77,9 +77,11 @@ const Gallery = () => {
       <h2 className="text-center text-[#D9A74A] uppercase text-4xl m-2 font-semibold">
         Gallery
       </h2>
-      <div className="flex flex-wrap gap-2 items-center lg:justify-start justify-center">
+      <div className="w-full columns-1 sm:columns-2 lg:columns-4">
         {theGallery.map((img, index) => (
+          <>
           <GalleryItem key={img.link} link={img.link} index={index} />
+          </>
         ))}
       </div>
     </div>

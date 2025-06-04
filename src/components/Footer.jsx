@@ -149,12 +149,12 @@ import {
             </div>
           </div>
         </div>
-        <div className="flex p-2 rounded-xl overflow-hidden items-center justify-center w-full">
+        <div className="flex p-2 mb-3 rounded-xl overflow-hidden items-center justify-center w-full">
           
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.941385426931!2d36.8980302!3d-1.2013033999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3e387b5ac57b%3A0x4e97db14acf2854b!2s123%20Kamiti%20Rd%2C%20Githurai!5e0!3m2!1sen!2ske!4v1734772001507!5m2!1sen!2ske"
             width="600"
-            height="450"
+            height="350"
             className="border-none rounded-xl"
             allowFullScreen=""
             loading="lazy"

@@ -48,11 +48,11 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full flex gap-6 lg:p-10 xl:min-h-[80vh] min-h-[60vh]"
+      className="w-full flex gap-6 lg:p-10 xl:min-h-[80vh] min-h-[50vh]"
     >
       <Toaster position="bottom-center" reverseOrder={false} />
-      <div className="xl:w-1/2 lg:w-2/5 xl:min-h-[80vh] lg:flex hidden min-h-[60vh] rounded-3xl bg-[url(https://firebasestorage.googleapis.com/v0/b/beiystar.appspot.com/o/images%2Fcontact-bg.webp?alt=media&token=3e2d8e34-a740-4cfd-b03e-3aceb36b1902)] bg-[top_center] bg-cover"></div>
-      <div className="xl:w-1/2 lg:w-3/5 w-full xl:min-h-[80vh] min-h-[60vh] lg:rounded-3xl flex flex-col p-1 xl:pl-12 lg:pl-10 md:pl-6 max-xl:pb-4 dark:bg-[#28282A] bg-[#D9A74A]">
+      <div className="xl:w-1/2 lg:w-2/5 xl:min-h-[80vh] lg:flex hidden min-h-[50vh] rounded-3xl bg-[url(https://firebasestorage.googleapis.com/v0/b/beiystar.appspot.com/o/images%2Fcontact-bg.webp?alt=media&token=3e2d8e34-a740-4cfd-b03e-3aceb36b1902)] bg-[top_center] bg-cover"></div>
+      <div className="xl:w-1/2 lg:w-3/5 w-full xl:min-h-[80vh] min-h-[50vh] lg:rounded-3xl flex flex-col p-1 xl:pl-12 lg:pl-10 md:pl-6 max-xl:pb-4 dark:bg-[#28282A] bg-[#D9A74A]">
         <h1 className="lg:p-[6px] p-2 font-[500] mt-10 text-gray-700 uppercase sm:text-start text-center bg-white w-max lg:text-[10px] text-lg rounded-full">
           Appointment
         </h1>

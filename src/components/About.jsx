@@ -13,13 +13,13 @@ const About = () => {
       <h3 className="text-center absolute top-10 font-semibold text-[#28282A] left-1/2 py-1 px-2 rounded-full uppercase text-[11px] bg-white w-max">
         about us
       </h3>
-      <div className="flex lg:flex-row flex-col-reverse xl:min-h-[80vh] min-h-[60vh]">
+      <div className="flex lg:flex-row flex-col-reverse xl:min-h-[80vh] min-h-[55vh]">
         <div className="lg:w-1/2 mt-12 relative">
           <Image
           fill
             src="https://firebasestorage.googleapis.com/v0/b/beiystar.appspot.com/o/images%2Fabout-bg.webp?alt=media&token=9e6cdd39-f8ea-4811-8169-3470c3277436"
             alt=""
-            className="w-full lg:h-[90vh] object-cover object-[left_center] h-[45vh] lg:rounded-2xl"
+            className="w-full xl:h-[90vh] object-cover object-[left_center] h-[45vh] lg:rounded-2xl"
           />
                </div>
         <div className="lg:mt-12 mt-16 lg:w-1/2 flex gap-4 flex-col items-center sm:p-6 p-2">

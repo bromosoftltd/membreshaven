@@ -87,7 +87,7 @@ export function EmblaCarousel() {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`embla__fade flex-[0_0_100%] lg:flex-[0_0_95%]  lg:h-[90vh] h-[60vh] transition-opacity duration-300 ease-linear flex flex-col gap-6 justify-center pl-10 bg-[bottom_center] bg-cover lg:rounded-[40px] ${
+            className={`embla__fade flex-[0_0_100%] lg:flex-[0_0_95%]  xl:h-[90vh] h-[60vh] transition-opacity duration-300 ease-linear flex flex-col gap-6 justify-center pl-10 bg-[bottom_center] bg-cover lg:rounded-[40px] ${
               selectedIndex === index ? "opacity-100" : "opacity-0"
             }`}
             style={{ backgroundImage: `url(${slide.img})` }}
