@@ -64,7 +64,6 @@ const Gallery = () => {
     },
   ];
 
-//   const shuffledGallery = shuffleArray(theGallery);
 
   return (
     <div
