@@ -8,8 +8,8 @@ import MobileNav from "./MobileNav";
 import { useDarkMode } from "@/hooks/useDarkMode";
 
 const Navbar = () => {
-  const {darkMode, toggleDarkMode} = useDarkMode()
-  
+  const { darkMode, toggleDarkMode } = useDarkMode();
+
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => setOpen((isOpen) => !isOpen);
@@ -54,12 +54,32 @@ const Navbar = () => {
       <div className="flex gap-4 items-center">
         {/* Dark Mode Toggle */}
         <button
+          variant={"ghost"}
+          size={"icon"}
           onClick={toggleDarkMode}
-          className="text-3xl p-2 cursor-pointer bg-transparent text-[#666] dark:text-[#F6F3ED] rounded-full"
-          aria-label="Toggle dark mode"
-          aria-live="polite"
+          className="relative grid place-items-center cursor-pointer rounded-full w-14 h-14 hover:bg-transparent"
         >
-          {darkMode ? <FaSun /> : <FaMoon />}
+          {/* Moon Icon */}
+          <div
+            className={`absolute transition-all duration-500 ease-in-out transform ${
+              !darkMode
+                ? "scale-100 rotate-0 opacity-100"
+                : "scale-0 -rotate-[360deg] opacity-0"
+            } text-[#18181B]`}
+          >
+            <FaMoon className="size-6" />
+          </div>
+
+          {/* Sun Icon */}
+          <div
+            className={`absolute transition-all duration-500 ease-in-out transform ${
+              darkMode
+                ? "scale-100 rotate-0 opacity-100"
+                : "scale-0 rotate-[360deg] opacity-0"
+            } text-[#D9A74A]`}
+          >
+            <FaSun className="size-6" />
+          </div>
         </button>
         <Link
           to="contact"
