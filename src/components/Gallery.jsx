@@ -79,7 +79,7 @@ const Gallery = () => {
       <div className="w-full columns-1 sm:columns-2 lg:columns-4">
         {theGallery.map((img, index) => (
           <>
-          <GalleryItem key={img.link} link={img.link} index={index} />
+          <GalleryItem key={index} link={img.link} index={index} />
           </>
         ))}
       </div>
